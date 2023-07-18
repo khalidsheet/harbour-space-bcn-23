@@ -38,4 +38,7 @@
 
     <!-- Content Description -->
     <string name="description_image_preview">Preview image</string>
+    <string name="image_overlay_pin_text">Barcelona, Spain</string>
+    <string name="barcelona">Barcelona</string>
+    <string name="spain">Spain</string>
 </resources>

@@ -53,7 +53,8 @@ android {
 dependencies {
 
     implementation(libs.androidx.appcompat)
-
+    implementation("com.google.android.material:material:1.6.0")
+    implementation("androidx.appcompat:appcompat:1.0.0-alpha1")
     implementation(libs.core.ktx)
     implementation(libs.lifecycle.runtime.ktx)
     implementation(libs.activity.compose)
@@ -69,4 +70,5 @@ dependencies {
     androidTestImplementation(libs.ui.test.junit4)
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.test.manifest)
+
 }
